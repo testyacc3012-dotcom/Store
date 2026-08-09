@@ -139,7 +139,7 @@ function setupPromoForm() {
     message.classList.remove("show", "ok", "err");
 
     if (VALID_CODES.includes(code)) {
-      message.textContent = "🎉 Code applied! Thanks for checking out the store.";
+      message.textContent = "🎉 Code applied! You've got 10% off — mention code FREENOW when you buy.";
       message.classList.add("show", "ok");
     } else {
       message.textContent = "That code isn't valid or has expired.";
