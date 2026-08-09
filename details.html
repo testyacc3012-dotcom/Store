@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brainrot Store — Details</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-badge">BR</span>
+      Brainrot Store
+    </a>
+    <p class="header-note">Unofficial fan storefront. Not affiliated with Roblox Corporation.</p>
+  </div>
+</header>
+
+<main>
+  <section class="details-section">
+    <div class="wrap">
+      <a href="index.html" class="back-link">&larr; Back to all Brainrots</a>
+
+      <div class="details-layout" id="details-root">
+        <!-- Filled in by app.js using the ?id= in the URL -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-legal">
+      Brainrot Store is a fan-made project. Not affiliated with, endorsed by, or sponsored by
+      Roblox Corporation. All purchases are processed by Roblox and billed in Robux.
+    </p>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="info-modal">
+  <div class="modal-box">
+    <h3 id="modal-title">Notice</h3>
+    <p id="modal-body"></p>
+    <button class="modal-close" id="modal-close">Got it</button>
+  </div>
+</div>
+
+<script src="assets/data/brainrots.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
