@@ -13,7 +13,7 @@ const BRAINROTS = [
     name: "Digi Narwhal",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-1.webp",
+    image: "brainrot-1.webp",
     description: "Half narwhal, half glitch. Digi Narwhal phases through the server whenever nobody's watching, then reappears somewhere it definitely shouldn't be."
   },
   {
@@ -21,7 +21,7 @@ const BRAINROTS = [
     name: "Vulturino Skeletono",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-2.webp",
+    image: "brainrot-2.webp",
     description: "A vulture that lost its feathers and never lost its attitude. Vulturino Skeletono circles the map looking for whatever's left after everyone else is done."
   },
   {
@@ -29,7 +29,7 @@ const BRAINROTS = [
     name: "Abyssaloco",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-3.webp",
+    image: "brainrot-3.webp",
     description: "Pulled up from somewhere deeper than anyone wanted to check. Abyssaloco doesn't say much — it doesn't need to."
   },
   {
@@ -37,7 +37,7 @@ const BRAINROTS = [
     name: "Examen Bros",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-4.png",
+    image: "brainrot-4.png",
     description: "Two brothers, one shared brain cell, zero studying done. Examen Bros show up right before deadlines and leave right after."
   },
   {
@@ -45,7 +45,7 @@ const BRAINROTS = [
     name: "Pizza and Ranch",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-5.png",
+    image: "brainrot-5.png",
     description: "An unstoppable combo that should not work as well as it does. Pizza and Ranch travel together, always, no exceptions."
   },
   {
@@ -53,7 +53,7 @@ const BRAINROTS = [
     name: "Noo my Examen",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-6.png",
+    image: "brainrot-6.png",
     description: "The sequel nobody asked for. Noo my Examen shows up right when you thought it was over, panicking louder than the last one."
   },
   {
@@ -61,7 +61,7 @@ const BRAINROTS = [
     name: "Dragon Cannelloni",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-7.webp",
+    image: "brainrot-7.webp",
     description: "Part dragon, part pasta, fully unbothered. Dragon Cannelloni breathes fire that somehow smells like a Sunday dinner."
   },
   {
@@ -69,7 +69,7 @@ const BRAINROTS = [
     name: "Noo my Resume",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-8.webp",
+    image: "brainrot-8.webp",
     description: "Distant cousin of Noo my Examen. Noo my Resume appears whenever it's time to be responsible and immediately regrets it."
   },
   {
@@ -77,7 +77,7 @@ const BRAINROTS = [
     name: "67",
     rarity: "Secret",
     price: 2399,
-    image: "assets/images/brainrot-9.webp",
+    image: "brainrot-9.webp",
     description: "Nobody knows what 67 actually is. It just is. Ask around and you'll get a different answer every time."
   },
   {
@@ -85,7 +85,7 @@ const BRAINROTS = [
     name: "Strawberry Elephant",
     rarity: "OG",
     price: "5,000 \u2013 16,000",
-    image: "assets/images/brainrot-10.jpeg",
+    image: "brainrot-10.jpeg",
     description: "One of the originals. Strawberry Elephant has been around since before the server had rules, and it shows."
   }
 ];
