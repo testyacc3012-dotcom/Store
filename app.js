@@ -36,8 +36,11 @@ function renderGrid() {
           </a>
           <div class="card-price">${price.amount} <span class="unit">${price.unit}</span></div>
           <div class="card-actions">
+            <a href="details.html?id=${b.id}" class="btn btn-outline">Details</a>
             <a href="${ROBLOX_PROFILE_URL}" target="_blank" rel="noopener" class="btn btn-buy">Buy</a>
-            <a href="error-444.html" class="btn btn-more">More…</a>
+          </div>
+          <div class="card-actions">
+            <a href="error-444.html" class="btn btn-more btn-block">More…</a>
           </div>
         </div>
       </article>
@@ -96,7 +99,8 @@ function renderDetails() {
       </ul>
 
       <div class="promo-box">
-        <h3>Have a promo code?</h3>
+        <h3>🎁 Have a promo code?</h3>
+        <p style="font-size:12.5px;color:var(--ink-dim);margin:0 0 12px;">Enter it below to redeem.</p>
         <form class="promo-form" id="promo-form">
           <input type="text" class="promo-input" id="promo-input" placeholder="Enter code" autocomplete="off">
           <button type="submit" class="promo-submit">Apply</button>

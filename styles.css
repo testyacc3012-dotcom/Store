@@ -96,6 +96,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .btn-more:hover { border-color: var(--ink-dim); color: var(--ink); }
 
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--ink-dim);
+}
+.btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
 .btn-block { width: 100%; }
 
 /* ==========================================================================

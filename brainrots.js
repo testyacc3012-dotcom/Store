@@ -37,7 +37,7 @@ const BRAINROTS = [
     name: "Examen Bros",
     rarity: "Secret",
     price: 2399,
-    image: "brainrot-4.png",
+    image: "brainrot-4.webp",
     description: "Two brothers, one shared brain cell, zero studying done. Examen Bros show up right before deadlines and leave right after."
   },
   {
@@ -45,7 +45,7 @@ const BRAINROTS = [
     name: "Pizza and Ranch",
     rarity: "Secret",
     price: 2399,
-    image: "brainrot-5.png",
+    image: "brainrot-5.webp",
     description: "An unstoppable combo that should not work as well as it does. Pizza and Ranch travel together, always, no exceptions."
   },
   {
@@ -53,7 +53,7 @@ const BRAINROTS = [
     name: "Noo my Examen",
     rarity: "Secret",
     price: 2399,
-    image: "brainrot-6.png",
+    image: "brainrot-6.webp",
     description: "The sequel nobody asked for. Noo my Examen shows up right when you thought it was over, panicking louder than the last one."
   },
   {
